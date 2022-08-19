@@ -1,0 +1,101 @@
+@font-face {
+    font-family: VolvoPro;
+    src: url(/assets/font/15c5f5b189674016e0de413ca5b9da52.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    max-width:100%;
+    
+}
+
+h2{
+    color:RGB(77, 78, 83);
+    font-weight: 700;
+}
+.main-container{
+    background-image: url("assets/images/banner-2400x720-new.jpg");
+    background-position: 50% ;
+    height: 110vh;
+    width: 100%;
+    position: relative;
+}
+.navbar-nav{
+    margin-right: 5%;
+    margin-top: 3%;
+}
+.nav-link{
+    font-family: Arial, sans-serif;
+}
+.logo{
+    margin-top: .25rem;
+    margin-left: .30rem;
+}
+.title{
+    font-family: VolvoPro;
+    left: 65%;
+    top: 60%;
+    position: absolute;
+    letter-spacing: .35rem;
+    font-size: x-large;
+}
+.heading{
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: .2px;
+    line-height: 1.5;
+    padding-top: 0.45933em;
+    padding-bottom: 0.42333em;
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 4%;
+    color:RGB(77, 78, 83);
+}
+.caption{
+    font-size: 2rem;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 700;
+    letter-spacing: .2px;
+    margin-left: 4%;
+    color:RGB(77, 78, 83);
+}
+section{
+    margin:0;
+}
+.row{
+    padding: 2%;
+}
+.section3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+.btn{
+   padding:10px;
+   border: none;
+   border-radius: 0;
+}
+
+video{
+    object-fit: cover;
+    width:100%;
+    height: auto;
+    
+}
+footer{
+    width: 100%;
+    height: auto;
+    
+    
+}
+.footer-text{
+    font-size: medium;
+}
+.footer-sub{
+    text-decoration: none;
+}
+.footer-list{
+    list-style: none;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
